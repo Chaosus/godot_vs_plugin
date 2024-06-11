@@ -5,6 +5,7 @@ class_name VisualShaderEditor
 @onready var graph : GraphEdit = $PanelContainer/GraphEdit
 
 var graph_menu : HBoxContainer
+var visual_shader : VisualShader
 
 func _show_members_dialog(at_mouse_pos : bool, input_port_type : VisualShaderNode.PortType, output_port_type : VisualShaderNode.PortType):
 	print("_show_members_dialog")

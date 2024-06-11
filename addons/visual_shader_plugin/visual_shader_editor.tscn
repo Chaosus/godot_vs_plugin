@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://wj31koyyvf7"]
 
-[ext_resource type="Script" path="res://addons/visual_shaders/visual_shader_editor.gd" id="1_aspbe"]
+[ext_resource type="Script" path="res://addons/visual_shader_plugin/visual_shader_editor.gd" id="1_aspbe"]
 
 [node name="VisualShaderEditor" type="VBoxContainer"]
 anchors_preset = 15
