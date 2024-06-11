@@ -1,7 +1,7 @@
 @tool
 extends EditorPlugin
 
-var editor : VisualShaderEditor
+var editor : VisualShaderEditor = null
 
 func _enter_tree():
 	editor = preload("res://addons/visual_shaders/visual_shader_editor.tscn").instantiate()
